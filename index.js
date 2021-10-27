@@ -1,5 +1,15 @@
+/* 
+    Project:        Plesk API 
+    Description:    A Node.js package for using the Plesk API in a simple yet powerful way. 
+    Author:         Eric Qvarnström 
+
+    Version:        1.0.0   Initial version
+*/
+
+/* dependencies */
 const axios = require('axios');
 
+/* General config for API-reuqests */
 const config = {
     headers: {
       "Content-Type": "application/json",
@@ -7,10 +17,10 @@ const config = {
     },
 };
 
+/* Class for the pleskAPI object */
 class pleskAPI{
 
-    /**
-     * 
+    /** 
      * @param {String} username Useraccount with API access 
      * @param {String} password Password to the account 
      * @param {String} host The host: I.e https://mydomain.se:8443
