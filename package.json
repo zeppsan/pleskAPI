@@ -1,0 +1,26 @@
+{
+  "name": "pleskapi",
+  "version": "1.0.0",
+  "description": "A package for calling the plesk API with simplified functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeppsan/pleskAPI.git"
+  },
+  "keywords": [
+    "Plesk",
+    "Node.js"
+  ],
+  "author": "Eric Qvarnström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeppsan/pleskAPI/issues"
+  },
+  "homepage": "https://github.com/zeppsan/pleskAPI#readme",
+  "dependencies": {
+    "axios": "^0.23.0"
+  }
+}
